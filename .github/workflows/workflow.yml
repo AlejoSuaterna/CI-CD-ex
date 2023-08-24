@@ -55,5 +55,5 @@ jobs:
         run: |
           pytest
 
-      - name: guardar archivo py en S#
-      run: aws s3 cp test_primes.py s3://AlejoSuaterna/
+      - name: guardar archivo py en S3
+        run: aws s3 cp test_primes.py s3://alejo1/
